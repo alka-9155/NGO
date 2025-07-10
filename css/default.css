@@ -819,3 +819,11 @@ input::placeholder, textarea::placeholder {
 th,  tr{
   border-style: none;
 }
+
+.carousal-div .carousel-item{
+  height: 300px;
+}
+.carousal-div .carousel-item img{
+  height: 100%;
+  background-size: cover;
+}
