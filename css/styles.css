@@ -15,11 +15,14 @@
   width: 34px;
   line-height: 34px;
   transition:all 0.3s ease-in-out;
-  border-radius: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
 }
 
 .social-links i:hover{
-  background-color: #6EA343;
+  background-color: #ee9494;
   color: #ffffff;
   transition:all 0.3s ease-in-out;
 }
@@ -34,7 +37,7 @@
 
 /*Header-nav-menu  Section*/
  .nav-link:hover, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
-  color: #6EA343;
+  color: #be5a60;
 }
 
 .nav-link:focus{
@@ -42,14 +45,23 @@
 }
 
 .dropdown-menu li:hover  a{
-  background-color:#6EA343 ;
+  background-color:#b14548 ;
   color: #fff ;
   transition: none;
 }
 
 .fixed-top {
-  background-color: #294145;
+  background-color: #3b4529;
 }
+#responsive-auth{
+  gap: 10px;
+}
+.form-control {
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-size: 1rem;
+}
+
 
 
 @media (min-width: 992px) {
@@ -110,7 +122,7 @@
   }
 
   .slicknav_nav a:hover, .slicknav_nav .slicknav_row:hover{
-    background-color: #6EA343;
+    background-color: #c75656;
     color: #fff;
   }
 
@@ -137,7 +149,7 @@
  
   a.nav-link.dropdown-toggle:focus{
     color: #fff !important;
-    background-color: #6EA343;
+    background-color: #c75a5a;
   }
 
   .dropdown-menu li:first-child:hover  a, .dropdown-menu li,   .dropdown-menu li:last-child:hover  a{
@@ -158,7 +170,7 @@
   }
 
   li.nav-item.dropdown.slicknav_parent.slicknav_open > a > a {
-    background: #6EA343;
+    background: #a34343;
     color : #fff !important;
   }
 
@@ -167,7 +179,7 @@
   } 
 
   .slicknav_btn.slicknav_open:before{
-    color: #6EA343;
+    color: #b73b3b;
   }
 
   .fixed-top{
@@ -191,7 +203,7 @@
     top: 60px;
   }
   .slicknav_nav a:hover, .slicknav_nav .slicknav_row:hover{
-    background-color: #6EA343 !important;
+    background-color: #e17373 !important;
   }     
 }
 
@@ -208,7 +220,7 @@
 }
 
 .carousel-caption *:nth-child(n){
-  opacity: 0;
+  opacity: 1;
 }
 
 .animated{
@@ -268,7 +280,7 @@
 }
 
 .to-do-inner a:hover h4{
-  color: #6EA343;
+  color: #a3434b;
   transition: all .3s ease-in-out;
 }
 
@@ -286,7 +298,7 @@
 
 .inquiry-box-icon i:hover{
   color: #fff;
-  background-color: #6EA343;
+  background-color: #b75c68;
   transition: all .3s ease-in-out;
 }
 
@@ -309,7 +321,7 @@
 
 .time-to-change-bg-overlay{
   background-color: transparent;
-  background-image: linear-gradient(90deg, #10101099 68%, #6EA343 0% );
+  background-image: linear-gradient(90deg, #10101099 68%, #cb161d 0% );
   opacity: 1;
 }
 
@@ -406,7 +418,7 @@
 }
 
 .suggetion-icon i:hover{
-  color: #6EA343;
+  color: #d1696e;
   background-color: #fff;
   transition: all .3s ease-in-out;
 }
@@ -459,7 +471,7 @@ padding-top: 238px;
 
 .social-link a:hover{
   color: #fff;
-  background-color: #6EA343 !important;
+  background-color: #ac5454 !important;
   transition: all ease-in-out .3s;
 }
 
@@ -513,12 +525,12 @@ padding-top: 238px;
 
 /* Volunteer section CSS */
 .volunteer{
-  background-image: linear-gradient(90deg, #FFFFFF 45%, #af6e74 0%);
+  background-image: linear-gradient(45deg, #d8c6c6, #ded3d361);
 }
 
 /* Event Section CSS */
 .event{
-  background-image: linear-gradient(90deg, #ffffff 30%, #F4F9F0 0);
+  background-image: linear-gradient(90deg, #ffffff 30);
 }
 
 /* Help Section CSS */
@@ -547,10 +559,14 @@ footer .overlay{
   width: 40px;
   line-height: 40px;
   transition:all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
 }
 
 .footer-socials i:hover{
-  background-color: #6EA343 !important;
+  background-color: #cd6a6a !important;
   color: #ffffff;
   transition:all 0.3s ease-in-out;
 }
@@ -579,7 +595,7 @@ footer .overlay{
 
 /* Career-list section */
 .send-cv-box{
-  background-image: linear-gradient(180deg, #294145 0%, #6EA343 100%);
+  background-image: linear-gradient(180deg, #ed757b 0%, #ce9e9f 100%);
 }
 
 .cv-box-icon i{

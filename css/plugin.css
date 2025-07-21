@@ -361,6 +361,7 @@ Change the following styles to modify the appearance of the menu.
 @media(max-width: 1099px) {
   div#slicknav-mobile {
     display: block;
+    background-color:#FFF;
   }
 
   #responsive-menu {

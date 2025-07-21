@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!--CSS Plugins-->
+    <link rel="stylesheet" href="css/plugin.css" />
+    <!-- Default CSS-->
+    <link rel="stylesheet" href="css/default.css" />
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!--FontAwesome CSS-->
+    <!-- <link rel="stylesheet" href="icons/font-awesome.min.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+   
+    <style>
+      body {
+        font-family: 'Segoe UI', sans-serif;
+        background-color: #fff;
+        color: #000;
+      }
+
+      .bg-red {
+        background-color: #a70c0c;
+      }
+
+      .bg-lightred {
+        background-color: #f1e8e8;
+      }
+
+      .text-red {
+        color: #b10505;
+      }
+
+      .form-control:focus {
+        box-shadow: none;
+        border-color: #a20606;
+      }
+
+      .btn-red {
+        background-color: #a60707;
+        color: #fff;
+        border: none;
+      }
+
+      .btn-red:hover {
+        background-color: #cb161d;
+      }
+
+      .section-title {
+        font-size: 2.5rem;
+        font-weight: bold;
+      }
+
+      footer a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+
+      .contact-icon {
+        color: #cb161d;
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <!-- <header class="bg-red text-white py-3">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div>
+          <i class="fa fa-phone"></i> +33 877 554 332 &nbsp;&nbsp;
+          <i class="fa fa-envelope"></i> example@mail.com
+        </div>
+        <div>
+          <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </header> -->
+
+     <header>
+      <div class="header-inner z-3 position-relative">
+        <div class="header-top bg-green white">
+          <div class="container">
+            <div class="header-top-inner py-2">
+              <div class="row align-items-center">
+                <div class="col-lg-6">
+                  <div class="header-top-info">
+                    <ul class="m-0 p-0">
+                      <li class="pe-3 border-end d-inline">
+                        <i class="fa fa-phone pe-1"></i>
+                        +33 877 554 332
+                      </li>
+                      <li class="px-3 border-end d-inline">
+                        <i class="fa fa-envelope-o pe-1"></i>
+                        <a
+                          href="https://htmldesigntemplates.com/cdn-cgi/l/email-protection"
+                          class="__cf_email__"
+                          data-cfemail="b8d1d6ded7f8cfdddacbd1ccdd96dbd7d5"
+                          >[email&#160;example@mail.com]</a
+                        >
+                      </li>
+                      <li class="px-3 d-inline">
+                        <i class="fa fa-clock-o pe-1"></i>
+                        Mon - Fri: 9:00 - 5:00
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="social-links text-end">
+                    <ul
+                      class="m-0 p-0 d-flex list-unstyled justify-content-end"
+                    >
+                      <li class="me-1">
+                        <a href="#">
+                          <i class="fa-brands fa-facebook"></i>
+                        </a>
+                      </li>
+                      <li class="me-1">
+                        <a href="#">
+                          <i class="fa-brands fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li class="me-1">
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-nav-menu" id="header-nav-menu">
+          <div class="container">
+            <div class="header-nav-menu-inner py-2">
+              <div class="row align-items-center justify-content-between">
+                <div class="col-lg-3 col-md-5 col-5">
+                  <div class="navbar-logo m-0">
+                    <a href="index.html">LOGO</a>
+                    <!-- <a href="index.html"
+                      ><img src="images/logo/1.jpg" alt="Logo" class="w-40"
+                    /></a> -->
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div
+                    class="navbar-collapse ms-8"
+                    id="bs-example-navbar-collapse-1"
+                  >
+                    <ul
+                      class="navbar-nav align-items-center justify-content-center flex-row"
+                      id="responsive-menu"
+                    >
+                      <li class="nav-item">
+                        <a
+                          class="nav-link px-3 py-0 black fw-bold text-uppercase"
+                          aria-current="page"
+                          href="index.html"
+                          >Home</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a
+                          class="nav-link px-3 py-0 black fw-bold text-uppercase"
+                          href="about.html"
+                          >About</a
+                        >
+                      </li>
+                      <!-- <li class="nav-item dropdown">
+                        <a
+                          class="nav-link dropdown-toggle px-3 py-0 white text-uppercase my-4"
+                          href="#"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Pages
+                        </a> -->
+                      <!-- <ul class="dropdown-menu bg-lightgrey p-0 rounded-1">
+                          <li>
+                            <a
+                              class="dropdown-item py-2 px-7 text-capitalize black border-0 rounded-top-1 border-bottom border-1 border-grey grey"
+                              href="gallery.html"
+                              >Gallery</a
+                            >
+                          </li> -->
+
+                      <!-- <li>
+                            <a
+                              class="dropdown-item py-2 px-7 text-capitalize black border-0 border-bottom border-1 border-grey grey"
+                              href="comming-soon.html"
+                              >Coming Soon</a
+                            >
+                          </li>
+                        </ul>
+                      </li> -->
+                      <li class="nav-item dropdown">
+                        <a
+                          class="nav-link dropdown-toggle px-3 py-0 black fw-bold text-uppercase my-4"
+                          href="#"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Campaign
+                        </a>
+                        <ul class="dropdown-menu bg-lightgrey p-0 rounded-1">
+                          <li>
+                            <a
+                              class="dropdown-item py-2 px-7 text-capitalize black border-0 rounded-top-1 border-bottom border-1 border-grey grey"
+                              href="campaign-list.html"
+                              >Campaign List</a
+                            >
+                          </li>
+                          <li>
+                            <!-- <a
+                              class="dropdown-item py-2 px-7 text-capitalize black border-0 rounded-bottom-1 grey"
+                              href="campaign-detail.html"
+                              >Campaign Details</a
+                            > -->
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="nav-item">
+                        <a
+                          class="nav-link px-3 py-0 black fw-bold text-uppercase"
+                          href="contact.html"
+                          >Contact</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 d-flex">
+                  <ul
+                    class="navbar-nav align-items-center justify-content-center flex-row"
+                    id="responsive-auth"
+                  >
+                    <li class="nav-item">
+                      <a
+                        class="nav-link white  text-uppercase btn-auth"
+                        aria-current="page"
+                        href="login.html"
+                        >Log In</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link white text-uppercase btn-auth"
+                        href="signup.html"
+                        >Sign Up</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div id="slicknav-mobile"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+   
+
+    <!-- Contact Section -->
+    <section class="py-5 bg-lightred">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="section-title text-red">Contact Us</h2>
+          <p>We’d love to hear from you. Fill out the form below to connect with us.</p>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <h4 class="mb-3 text-red">Our Information</h4>
+            <p><i class="fa fa-map-marker contact-icon"></i> Durgapur, West Bengal, India</p>
+            <p><i class="fa fa-phone contact-icon"></i> +33 877 554 332</p>
+            <p><i class="fa fa-envelope contact-icon"></i> example@mail.com</p>
+            <p>
+              <i class="fa fa-clock contact-icon"></i> Mon - Fri: 9:00 AM - 5:00 PM
+            </p>
+          </div>
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label text-red">Your Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label text-red">Email Address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required />
+              </div>
+              <div class="mb-3">
+                <label for="subject" class="form-label text-red">Subject</label>
+                <input type="text" class="form-control" id="subject" placeholder="Enter subject" required />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label text-red">Your Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Write your message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-red px-4">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- Footer -->
+
+     <footer class="bg-darkgreen pt-10 position-relative">
+      <div class="overlay opacity-50"></div>
+      <div class="container position-relative">
+        <div class="footer-inner white">
+         
+          <div class="footer-middle text-center text-lg-start pb-9">
+            <div class="row gx-lg-5 gy-5 gy-lg-0">
+              <div class="col-lg-6 col-md-6">
+                <div class="about-ecoviron text-center text-lg-start">
+                  <div class="ecoviron-info mb-4">
+                    <p class="mb-2">
+                      Our mission is to create a sustainable world through tree
+                      plantations, plastic reduction, and clean energy
+                      awareness.
+                    </p>
+                    <p class="mb-0">
+                      Join us in protecting wildlife, responding to climate
+                      crises, and building a green tomorrow — together.
+                    </p>
+                  </div>
+                  <div class="footer-socials mb-4">
+                    <ul
+                      class="m-0 p-0 d-flex list-unstyled justify-content-center justify-content-lg-start"
+                    >
+                      <li class="me-1">
+                        <a href="#">
+                          <i class="fa-brands fa-facebook"></i>
+                        </a>
+                      </li>
+                      <li class="me-1">
+                        <a href="#">
+                          <i class="fa-brands fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li class="me-1">
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#"> </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="footer-contact-info">
+                    <ul class="m-0 p-0 list-unstyled">
+                      <li class="pb-2">
+                        <span class="h5"
+                          ><i
+                            class="fa fa-map-marker pe-2"
+                            aria-hidden="true"
+                          ></i
+                        ></span>
+                        Duragapur, West Bengal, India
+                      </li>
+                      <li class="pb-2">
+                        <span class="h5"><i class="fa fa-phone pe-2"></i></span>
+                        +33 877 554 332
+                      </li>
+                      <li class="">
+                        <span class="h5"
+                          ><i class="fa fa-envelope-o pe-2"></i
+                        ></span>
+                        <a
+                          href="https://htmldesigntemplates.com/cdn-cgi/l/email-protection"
+                          class="__cf_email__"
+                          data-cfemail="bdd4d3dbd2fdcad8dfced4c9d893ded2d0"
+                          >[email&#160;example@mail.com]</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <div class="quick-links">
+                  <h4 class="white mb-2">quick links</h4>
+                  <div
+                    class="seperator w-20 border-bottom border-1 mb-6 m-auto m-lg-0"
+                  ></div>
+                  <ul class="m-0 p-0 list-unstyled">
+                    <li class="pb-4"><a href="about.html">About Us</a></li>
+                    <li class=" "><a href="contact.html">Contact US</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <div class="services">
+                  <h4 class="white mb-2">Services</h4>
+                  <div
+                    class="seperator w-20 border-bottom border-1 mb-6 m-auto m-lg-0"
+                  ></div>
+                  <ul class="m-0 p-0 list-unstyled">
+                    <li class="pb-4"><a href=" ">Recycling</a></li>
+                    <li class="pb-4"><a href=" ">Ecosystem</a></li>
+                    <li class="pb-4"><a href=" ">Best Organic</a></li>
+                    <li class="pb-4"><a href=" ">Biology System</a></li>
+                    <li class="pb-4"><a href=" ">Private Policy</a></li>
+                    <li class=" "><a href=" ">Terms & Conditions</a></li>
+                  </ul>
+                </div>
+              </div>
+              <!-- <div class="col-lg-4">
+                <div class="subscribe text-center text-lg-start">
+                  <h4 class="white mb-2">Get intresting news</h4>
+                  
+                  <p class="mb-4">
+                    
+                  </p> -->
+                  <form>
+                    <!-- <div class="row">
+                      <div class="col-lg-12 col-md-8">
+                        <input
+                          type="email"
+                          placeholder="Email"
+                          class="mb-2"
+                          required
+                        />
+                      </div>
+                      <div class="col-lg-12 col-md-4">
+                        <button class="btn w-100 w-lg-40">subscribe</button>
+                      </div>
+                    </div> -->
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright py-6 bg-darker position-relative text-center white">
+        <p class="mb-0">
+          Developed by RenoSync.
+        </p>
+      </div>
+    </footer>
+    <!-- <footer class="bg-red text-white pt-5 pb-3">
+      <div class="container">
+        <div class="row text-center text-md-start">
+          <div class="col-md-4 mb-3">
+            <h5>About Us</h5>
+            <p>
+              We aim to create a sustainable future through awareness, green campaigns, and collaboration.
+            </p>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5>Connect</h5>
+            <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <hr class="border-white" />
+        <p class="text-center mb-0">© 2025 RenoSync. All rights reserved.</p>
+      </div>
+    </footer> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
