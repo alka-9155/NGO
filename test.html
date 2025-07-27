@@ -1,50 +1,38 @@
-<!DOCTYPE html>
-
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>NGO</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!--CSS Plugins-->
-    <link rel="stylesheet" href="css/plugin.css" />
+    <link rel="stylesheet" href="css/plugin.css">
     <!-- Default CSS-->
-    <link rel="stylesheet" href="css/default.css" />
+    <link rel="stylesheet" href="css/default.css">
     <!--Custom CSS-->
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css">
   
 
 
 
     <!--FontAwesome CSS-->
     <!-- <link rel="stylesheet" href="icons/font-awesome.min.css" /> -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css">
 
   </head>
 
   <body>
     <!-- Header Section Start -->
-    <header>
+    <header style="
+    z-index: 1;
+">
       <div class="header-inner z-3 position-relative">
         <div class="header-top bg-green white">
           <div class="container">
@@ -59,12 +47,7 @@
                       </li>
                       <li class="px-3 border-end d-inline">
                         <i class="fa fa-envelope-o pe-1"></i>
-                        <a
-                          href="https://htmldesigntemplates.com/cdn-cgi/l/email-protection"
-                          class="__cf_email__"
-                          data-cfemail="b8d1d6ded7f8cfdddacbd1ccdd96dbd7d5"
-                          >example@mail.com</a
-                        >
+                        <a href="https://htmldesigntemplates.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="b8d1d6ded7f8cfdddacbd1ccdd96dbd7d5">example@mail.com</a>
                       </li>
                       <li class="px-3 d-inline">
                         <i class="fa fa-clock-o pe-1"></i>
@@ -75,9 +58,7 @@
                 </div>
                 <div class="col-lg-6">
                   <div class="social-links text-end">
-                    <ul
-                      class="m-0 p-0 d-flex list-unstyled justify-content-end"
-                    >
+                    <ul class="m-0 p-0 d-flex list-unstyled justify-content-end">
                       <li class="me-1">
                         <a href="#">
                           <i class="fa-brands fa-facebook"></i>
@@ -108,8 +89,8 @@
         <div class="header-nav-menu" id="header-nav-menu">
           <div class="container">
             <div class="header-nav-menu-inner py-2">
-              <div class="row align-items-center justify-content-between">
-                <div class="col-lg-3 col-md-6 col-3">
+              <div class="row">
+                <div class="col-lg-3 col-md-4 col-3">
                   <div class="navbar-logo m-0">
                     <a href="index.html">LOGO</a>
                     <!-- <a href="index.html"
@@ -117,29 +98,23 @@
                     /></a> -->
                   </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-6">
-                  <div
-                    class="navbar-collapse ms-8"
-                    id="bs-example-navbar-collapse-1"
-                  >
-                    <ul
-                      class="navbar-nav align-items-center justify-content-center flex-row"
-                      id="responsive-menu"
-                    >
+                
+                <div class="col-lg-3 col-md-5">
+                    <ul class="navbar-nav align-items-center justify-content-end flex-row" id="responsive-auth">
                       <li class="nav-item">
-                        <a
-                          class="nav-link px-3 py-0 white text-uppercase"
-                          aria-current="page"
-                          href="index.html"
-                          >Home</a
-                        >
+                        <a class="nav-link white text-uppercase btn-auth " aria-current="page" href="login.html">Log In</a>
                       </li>
                       <li class="nav-item">
-                        <a
-                          class="nav-link px-3 py-0 white text-uppercase"
-                          href="about.html"
-                          >About</a
-                        >
+                        <a class="nav-link white text-uppercase btn-auth " href="signup.html">Sign Up</a>
+                      </li>
+                    </ul>
+                </div>
+                <div id="slicknav-mobile"><div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;"><span class="slicknav_menutxt"></span><span class="slicknav_icon slicknav_no-text"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><ul class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
+                      <li class="nav-item">
+                        <a class="nav-link px-3 py-0 white text-uppercase" aria-current="page" href="index.html" role="menuitem" tabindex="-1">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link px-3 py-0 white text-uppercase" href="about.html" role="menuitem" tabindex="-1">About</a>
                       </li>
                       <!-- <li class="nav-item dropdown">
                         <a
@@ -170,25 +145,15 @@
                           </li>
                         </ul>
                       </li> -->
-                      <li class="nav-item dropdown">
-                        <a
-                          class="nav-link dropdown-toggle px-3 py-0 white text-uppercase my-4"
-                          href="#"
-                          role="button"
-                          data-bs-toggle="dropdown"
-                          aria-expanded="false"
-                        >
+                      <li class="nav-item dropdown slicknav_collapsed slicknav_parent"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;">
+                        <a class="nav-link dropdown-toggle px-3 py-0 white text-uppercase my-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" tabindex="-1">
                           Campaign
                         </a>
-                        <ul class="dropdown-menu bg-lightgrey p-0 rounded-1">
+                        <span class="slicknav_arrow">►</span></a><ul class="dropdown-menu bg-lightgrey p-0 rounded-1 slicknav_hidden" role="menu" aria-hidden="true" style="display: none;">
                           <li>
-                            <a
-                              class="dropdown-item py-2 px-7 text-capitalize black border-0 rounded-top-1 border-bottom border-1 border-grey grey"
-                              href="campaign-list.html"
-                              >Campaign List</a
-                            >
+                            <a class="dropdown-item py-2 px-7 text-capitalize black border-0 rounded-top-1 border-bottom border-1 border-grey grey" href="campaign-list.html" role="menuitem" tabindex="-1">Campaign List</a>
                           </li>
-                          <li>
+                          <li class="slicknav_txtnode">
                             <!-- <a
                               class="dropdown-item py-2 px-7 text-capitalize black border-0 rounded-bottom-1 grey"
                               href="campaign-detail.html"
@@ -199,36 +164,9 @@
                       </li>
 
                       <li class="nav-item">
-                        <a
-                          class="nav-link px-3 py-0 white text-uppercase"
-                          href="contact.html"
-                          >Contact</a
-                        >
+                        <a class="nav-link px-3 py-0 white text-uppercase" href="contact.html" role="menuitem" tabindex="-1">Contact</a>
                       </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <ul
-                      class="navbar-nav align-items-center justify-content-end flex-row"
-                      id="responsive-auth"
-                    >
-                      <li class="nav-item">
-                        <a
-                          class="nav-link white text-uppercase btn-auth "
-                          aria-current="page"
-                          href="login.html"
-                          >Log In</a>
-                      </li>
-                      <li class="nav-item">
-                        <a
-                          class="nav-link white text-uppercase btn-auth "
-                          href="signup.html"
-                          >Sign Up</a>
-                      </li>
-                    </ul>
-                </div>
-                <div id="slicknav-mobile"></div>
+                    </ul></div></div>
               </div>
             </div>
           </div>
@@ -239,24 +177,12 @@
 
     <!-- Banner Section Start -->
     <section class="banner position-relative">
-      <div
-        id="carouselExampleSlidesOnly"
-        class="carousel slide"
-        data-bs-ride="carousel"
-        data-bs-pause="false"
-        data-bs-interval="7000"
-      >
+      <div id="carouselExampleSlidesOnly" class="carousel slide pointer-event" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="7000">
         <div class="carousel-inner">
-          <div class="carousel-item active position-relative">
-            <img
-              src="images/banner-slider/2.jpg"
-              class="d-block w-100 object-fit-cover"
-              alt="banner-image"
-            />
+          <div class="carousel-item position-relative">
+            <img src="images/banner-slider/2.jpg" class="d-block w-100 object-fit-cover" alt="banner-image">
             <div class="overlay"></div>
-            <div
-              class="carousel-caption w-lg-60 p-2 start-0 end-0 text-center m-auto"
-            >
+            <div class="carousel-caption w-lg-60 p-2 start-0 end-0 text-center m-auto">
               <h3 class="red mt-1 mb-2 fadeInDown animated">End Pollution</h3>
 
               <h1 class="white pb-3 mt-1 mb-2 fadeInDown animated">
@@ -266,21 +192,13 @@
                 Planting a tree is planting life itself is a quiet act of hope
                 that echoes for generations.
               </p>
-              <a class="btn text-uppercase mt-6 fadeInDown animated"
-                >Learn More</a
-              >
+              <a class="btn text-uppercase mt-6 fadeInDown animated">Learn More</a>
             </div>
           </div>
-          <div class="carousel-item position-relative">
-            <img
-              src="images/banner-slider/4.avif"
-              class="d-block w-100 object-fit-cover"
-              alt="banner-image"
-            />
+          <div class="carousel-item position-relative active">
+            <img src="images/banner-slider/4.avif" class="d-block w-100 object-fit-cover" alt="banner-image">
             <div class="overlay"></div>
-            <div
-              class="carousel-caption w-lg-60 p-2 start-0 end-0 text-center m-auto"
-            >
+            <div class="carousel-caption w-lg-60 p-2 start-0 end-0 text-center m-auto">
               <h3 class="white mt-1 mb-2 fadeInDown animated">Reuse Plastic</h3>
               <h1 class="white pb-3 mt-1 mb-2 fadeInDown animated">
                 Save The Planet. Reduce Recycle The Plastic
@@ -289,21 +207,13 @@
                 Our planet is drowning in plastic, let’s throw it a lifeline.
                 Reduce what you can, recycle what you must.
               </p>
-              <a class="btn text-uppercase mt-6 fadeInDown animated"
-                >Join Campaign</a
-              >
+              <a class="btn text-uppercase mt-6 fadeInDown animated">Join Campaign</a>
             </div>
           </div>
           <div class="carousel-item position-relative">
-            <img
-              src="images/banner-slider/6.jpg"
-              class="d-block w-100 object-fit-cover"
-              alt="banner-image"
-            />
+            <img src="images/banner-slider/6.jpg" class="d-block w-100 object-fit-cover" alt="banner-image">
             <div class="overlay"></div>
-            <div
-              class="carousel-caption w-lg-60 p-2 start-0 end-0 text-center m-auto"
-            >
+            <div class="carousel-caption w-lg-60 p-2 start-0 end-0 text-center m-auto">
               <h3 class="white mt-1 mb-2 fadeInDown animated">
                 Donate And Help
               </h3>
@@ -314,9 +224,7 @@
                 Change begins with a single step and that step could be yours.
                 Support the mission. Shape the future.
               </p>
-              <a class="btn text-uppercase mt-6 fadeInDown animated"
-                >Start Today</a
-              >
+              <a class="btn text-uppercase mt-6 fadeInDown animated">Start Today</a>
             </div>
           </div>
         </div>
@@ -331,15 +239,9 @@
           <div class="row justify-content-center gx-lg-5 gx-md-4 gy-4">
             <div class="col-lg-4 col-md-6">
               <div class="to-do-box bg-white d-flex rounded-1">
-                <a
-                  href="donate-now.html"
-                  class="py-7 px-6 border border-3 border-grey rounded-1"
-                >
+                <a href="donate-now.html" class="py-7 px-6 border border-3 border-grey rounded-1">
                   <div class="box-icon mb-4 h2">
-                    <i
-                      class="fa-solid fa-address-book bg-green rounded-circle white border border-5 border-grey"
-                      aria-hidden="true"
-                    ></i>
+                    <i class="fa-solid fa-address-book bg-green rounded-circle white border border-5 border-grey" aria-hidden="true"></i>
                   </div>
                   <div class="box-body">
                     <h4 class="mb-2">Support Campaign</h4>
@@ -353,15 +255,9 @@
             </div>
             <div class="col-lg-4 col-md-6">
               <div class="to-do-box d-flex rounded-1 bg-white">
-                <a
-                  href="campaign-detail.html"
-                  class="py-7 px-6 border border-3 border-grey rounded-1"
-                >
+                <a href="campaign-detail.html" class="py-7 px-6 border border-3 border-grey rounded-1">
                   <div class="box-icon mb-4 h2">
-                    <i
-                      class="fa fa-globe bg-green rounded-circle white border border-5 border-grey"
-                      aria-hidden="true"
-                    ></i>
+                    <i class="fa fa-globe bg-green rounded-circle white border border-5 border-grey" aria-hidden="true"></i>
                   </div>
                   <div class="box-body">
                     <h4 class="mb-2">Safe Enviorement</h4>
@@ -375,15 +271,9 @@
             </div>
             <div class="col-lg-4 col-md-6">
               <div class="to-do-box d-flex rounded-1 bg-white">
-                <a
-                  href="contact.html"
-                  class="py-7 px-6 border border-3 border-grey rounded-1"
-                >
+                <a href="contact.html" class="py-7 px-6 border border-3 border-grey rounded-1">
                   <div class="box-icon mb-4 h2">
-                    <i
-                      class="fa fa-users bg-green rounded-circle white border border-5 border-grey"
-                      aria-hidden="true"
-                    ></i>
+                    <i class="fa fa-users bg-green rounded-circle white border border-5 border-grey" aria-hidden="true"></i>
                   </div>
                   <div class="box-body">
                     <h4 class="mb-2">Become A Volunteer</h4>
@@ -412,39 +302,22 @@
                   <div class="col-lg-6 col-md-6">
                     <div class="left-image">
                       <div class="about-us-image mb-2">
-                        <img
-                          src="images/planting%26working/1.jpg"
-                          alt="Plant"
-                          class="w-100 rounded-1"
-                        />
+                        <img src="images/planting%26working/1.jpg" alt="Plant" class="w-100 rounded-1">
                       </div>
                       <div class="about-us-image">
-                        <img
-                          src="images/planting%26working/2.jpg"
-                          alt="Plant"
-                          class="w-100 rounded"
-                        />
+                        <img src="images/planting%26working/2.jpg" alt="Plant" class="w-100 rounded">
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-6 col-md-6">
                     <div class="right-image text-center">
                       <div class="about-us-image">
-                        <img
-                          src="images/planting%26working/3.jpg"
-                          alt="Plant"
-                          class="w-100 rounded-1"
-                        />
+                        <img src="images/planting%26working/3.jpg" alt="Plant" class="w-100 rounded-1">
                       </div>
                       <a href="#">
-                        <div
-                          class="exp-box bg-green rounded-1 px-6 pb-7 pt-3 border border-white overflow-hidden"
-                        >
+                        <div class="exp-box bg-green rounded-1 px-6 pb-7 pt-3 border border-white overflow-hidden">
                           <div class="exp-badge mb-5">
-                            <span
-                              class="h2 fw-semibold text-capitalize white bg-darkgreen py-3 px-4 rounded-bottom-1"
-                              >25</span
-                            >
+                            <span class="h2 fw-semibold text-capitalize white bg-darkgreen py-3 px-4 rounded-bottom-1">25</span>
                           </div>
                           <p class="h4 fw-semibold text-capitalize white mb-0">
                             Years of experience in company
@@ -480,23 +353,12 @@
                     The world won’t change overnight, but it can start with you
                     today.Join hands, take action, and shape a better tomorrow.
                   </p>
-                  <img
-                    src="images/logo/2.jpg"
-                    alt="CEO Signature"
-                    class="w-30"
-                  /><br />
-                  <span class="darkgreen fw-semibold h6 oswald"
-                    >Mark mcguire, CEO</span
-                  >
+                  <img src="images/logo/2.jpg" alt="CEO Signature" class="w-30"><br>
+                  <span class="darkgreen fw-semibold h6 oswald">Mark mcguire, CEO</span>
                 </div>
                 <div class="inquiry-box bg-grey p-4 rounded-1 d-flex">
                   <div class="inquiry-box-icon">
-                    <a href="#" class="h3 white"
-                      ><i
-                        class="fa fa-volume-control-phone bg-darkgreen rounded-circle text-center me-3"
-                        aria-hidden="true"
-                      ></i
-                    ></a>
+                    <a href="#" class="h3 white"><i class="fa fa-volume-control-phone bg-darkgreen rounded-circle text-center me-3" aria-hidden="true"></i></a>
                   </div>
                   <div class="inquiry-box-info">
                     <h6 class="green mb-1">
@@ -546,36 +408,26 @@
                 <div class="counter text-center">
                   <div class="row">
                     <div class="col-lg-6 col-md-6 p-0">
-                      <div
-                        class="counter-box white px-2 py-6 border-end border-bottom border-1 border-light"
-                      >
-                        <span class="roboto h1 num" data-val="850"></span
-                        ><span class="roboto h1">+</span>
+                      <div class="counter-box white px-2 py-6 border-end border-bottom border-1 border-light">
+                        <span class="roboto h1 num" data-val="850"></span><span class="roboto h1">+</span>
                         <p class="mb-0 h6 fst-italic">Projets Done</p>
                       </div>
                     </div>
                     <div class="col-lg-6 col-md-6 p-0">
-                      <div
-                        class="counter-box white px-2 py-6 border-bottom border-1 border-light"
-                      >
-                        <span class="roboto h1 num" data-val="322"></span
-                        ><span class="roboto h1">+</span>
+                      <div class="counter-box white px-2 py-6 border-bottom border-1 border-light">
+                        <span class="roboto h1 num" data-val="322"></span><span class="roboto h1">+</span>
                         <p class="mb-0 h6 fst-italic">Case Solved</p>
                       </div>
                     </div>
                     <div class="col-lg-6 col-md-6 p-0">
-                      <div
-                        class="counter-box white px-2 py-6 border-end border-1 border-light"
-                      >
-                        <span class="roboto h1 num" data-val="932"></span
-                        ><span class="roboto h1">+</span>
+                      <div class="counter-box white px-2 py-6 border-end border-1 border-light">
+                        <span class="roboto h1 num" data-val="932"></span><span class="roboto h1">+</span>
                         <p class="mb-0 h6 fst-italic">Fund Raise</p>
                       </div>
                     </div>
                     <div class="col-lg-6 col-md-6 p-0">
                       <div class="counter-box white px-2 py-6 border-0">
-                        <span class="roboto h1 num" data-val="550"></span
-                        ><span class="roboto h1">+</span>
+                        <span class="roboto h1 num" data-val="550"></span><span class="roboto h1">+</span>
                         <p class="mb-0 h6 fst-italic">Happy Volunteers</p>
                       </div>
                     </div>
@@ -586,14 +438,8 @@
             <div class="col-lg-6">
               <div class="time-to-change-right position-relative">
                 <div class="lightgallery-box" id="lightgallery-video">
-                  <a
-                    data-src="https://www.youtube.com/watch?v=XHOmBV4js_E"
-                    class="h1 z-1 text-white border border-6 bprder-grey rounded-1 d-flex align-items-center justify-content-center w-100"
-                  >
-                    <i
-                      class="fa fa-play-circle-o opacity-75"
-                      aria-hidden="true"
-                    ></i>
+                  <a data-src="https://www.youtube.com/watch?v=XHOmBV4js_E" class="h1 z-1 text-white border border-6 bprder-grey rounded-1 d-flex align-items-center justify-content-center w-100">
+                    <i class="fa fa-play-circle-o opacity-75" aria-hidden="true"></i>
                   </a>
                 </div>
               </div>
@@ -623,82 +469,40 @@
           </div>
           <div class="lightbox">
             <div class="row g-md-3 gy-3" id="lightgallery">
-              <div
-                class="col-lg-4 col-md-6 position-relative"
-                data-src="images/banner-slider/2.jpg"
-              >
+              <div class="col-lg-4 col-md-6 position-relative" data-src="images/banner-slider/2.jpg">
                 <a href="#">
                   <div class="image-overlay"></div>
-                  <img
-                    src="images/banner-slider/6.jpg"
-                    alt="A dandelion in the grass is illuminated by a ray of sunlight"
-                    class="w-100 rounded-1"
-                  />
+                  <img src="images/banner-slider/6.jpg" alt="A dandelion in the grass is illuminated by a ray of sunlight" class="w-100 rounded-1">
                 </a>
               </div>
-              <div
-                class="col-lg-4 col-md-6 position-relative"
-                data-src="images/banner-slider/1.jpg"
-              >
+              <div class="col-lg-4 col-md-6 position-relative" data-src="images/banner-slider/1.jpg">
                 <a href="#">
                   <div class="image-overlay"></div>
-                  <img
-                    src="images/banner-slider/4.avif"
-                    alt="Tree Planting"
-                    class="w-100 rounded-1"
-                  />
+                  <img src="images/banner-slider/4.avif" alt="Tree Planting" class="w-100 rounded-1">
                 </a>
               </div>
-              <div
-                class="col-lg-4 col-md-6 position-relative"
-                data-src="images/banner-slider/3.jpg"
-              >
+              <div class="col-lg-4 col-md-6 position-relative" data-src="images/banner-slider/3.jpg">
                 <a href="#">
                   <div class="image-overlay"></div>
-                  <img
-                    src="images/banner-slider/4.avif"
-                    alt="Green Forest"
-                    class="w-100 rounded-1"
-                  />
+                  <img src="images/banner-slider/4.avif" alt="Green Forest" class="w-100 rounded-1">
                 </a>
               </div>
-              <div
-                class="col-lg-4 col-md-6 position-relative"
-                data-src="images/planting%26working/8.jpg"
-              >
+              <div class="col-lg-4 col-md-6 position-relative" data-src="images/planting%26working/8.jpg">
                 <a href="#">
                   <div class="image-overlay"></div>
-                  <img
-                    src="images/planting%26working/8.jpg"
-                    alt="Dog Feeding"
-                    class="w-100 rounded-1"
-                  />
+                  <img src="images/planting%26working/8.jpg" alt="Dog Feeding" class="w-100 rounded-1">
                 </a>
               </div>
-              <div
-                class="col-lg-4 col-md-6 position-relative"
-                data-src="images/planting%26working/9.jpg"
-              >
+              <div class="col-lg-4 col-md-6 position-relative" data-src="images/planting%26working/9.jpg">
                 <a href="#">
                   <div class="image-overlay"></div>
-                  <img
-                    src="images/planting%26working/9.jpg"
-                    alt="Tree Plantation"
-                    class="w-100 rounded-1"
-                  />
+                  <img src="images/planting%26working/9.jpg" alt="Tree Plantation" class="w-100 rounded-1">
                 </a>
               </div>
-              <div
-                class="col-lg-4 col-md-6 position-relative"
-                data-src="images/planting%26working/10.jpg"
-              >
+              <div class="col-lg-4 col-md-6 position-relative" data-src="images/planting%26working/10.jpg">
                 <a href="#">
                   <div class="image-overlay"></div>
-                  <img
-                    src="images/planting%26working/10.jpg"
-                    alt="Tree Plantation"
-                    class="w-100 rounded-1"
-                  />
+                  <img src="images/planting%26working/10.jpg" alt="Tree Plantation" class="w-100 rounded-1">
                 </a>
               </div>
             </div>
@@ -714,23 +518,14 @@
         <div class="donate-suggetion-inner">
           <div class="row gx-lg-4 gy-4">
             <div class="col-lg-6">
-              <div
-                class="donate-suggetion-box py-9 px-8 border border-6 border-grey rounded-1 d-flex position-relative z-0"
-              >
+              <div class="donate-suggetion-box py-9 px-8 border border-6 border-grey rounded-1 d-flex position-relative z-0">
                 <div class="image-overlay w-100 m-0 z-n1 opacity-75"></div>
                 <div class="suggetion-icon me-4 h2">
-                  <a href="event-detail.html"
-                    ><i
-                      class="fa-solid fa-heart white bg-green text-center rounded-circle"
-                      aria-hidden="true"
-                    ></i
-                  ></a>
+                  <a href="event-detail.html"><i class="fa-solid fa-heart white bg-green text-center rounded-circle" aria-hidden="true"></i></a>
                 </div>
                 <div class="suggetion-info white">
                   <h3 class="white mb-2">
-                    <a href="campaign-list.html"
-                      >Your Donation can save someone's life</a
-                    >
+                    <a href="campaign-list.html">Your Donation can save someone's life</a>
                   </h3>
                   <p class="mb-0">
                     Every contribution brings us closer to healing communities,
@@ -740,23 +535,14 @@
               </div>
             </div>
             <div class="col-lg-6">
-              <div
-                class="clean-suggetion-box py-9 px-8 border border-6 border-grey rounded-1 d-flex position-relative z-0"
-              >
+              <div class="clean-suggetion-box py-9 px-8 border border-6 border-grey rounded-1 d-flex position-relative z-0">
                 <div class="image-overlay w-100 m-0 z-n1 opacity-75"></div>
                 <div class="suggetion-icon me-4 h2">
-                  <a href="event-detail.html"
-                    ><i
-                      class="fa fa-globe white bg-green text-center rounded-circle"
-                      aria-hidden="true"
-                    ></i
-                  ></a>
+                  <a href="event-detail.html"><i class="fa fa-globe white bg-green text-center rounded-circle" aria-hidden="true"></i></a>
                 </div>
                 <div class="suggetion-info white">
                   <h3 class="white mb-2">
-                    <a href="event-detail.html"
-                      >Clean eco energy to save the world</a
-                    >
+                    <a href="event-detail.html">Clean eco energy to save the world</a>
                   </h3>
                   <p class="mb-0">
                     Join the eco energy movement and be a part of the green
@@ -779,7 +565,7 @@
         <div class="vision-mission-inner text-center w-lg-50 m-auto white">
           <div class="vision-mission-title mb-4">
             <h5 class="mb-2 white">
-              <i class="fa fa-handshake-o pe-2" aria-hidden="true"></i> Vision &
+              <i class="fa fa-handshake-o pe-2" aria-hidden="true"></i> Vision &amp;
               Mission
             </h5>
             <h2 class="white">
@@ -805,40 +591,19 @@
         <div class="row align-items-center gy-4">
           <!-- Left: Image Slider -->
           <div class="col-lg-6 rounded-3">
-            <div
-              id="carouselExample"
-              class="carousel slide rounded-3"
-              data-bs-ride="carousel"
-              data-bs-interval="2000"
-            >
+            <div id="carouselExample" class="carousel slide rounded-3 pointer-event" data-bs-ride="carousel" data-bs-interval="2000">
               <div class="carousel-inner carousal-div rounded-3">
+                <div class="carousel-item rounded-3">
+                  <img src="images/planting&amp;working/11.jpg" class="d-block w-100 rounded-3" alt="...">
+                </div>
+                <div class="carousel-item rounded-3">
+                  <img src="images/planting&amp;working/4.jpg" class="d-block w-100 rounded-3" alt="...">
+                </div>
                 <div class="carousel-item rounded-3 active">
-                  <img
-                    src="images/planting&working/11.jpg"
-                    class="d-block w-100 rounded-3"
-                    alt="..."
-                  />
+                  <img src="images/planting&amp;working/5.jpg" class="d-block w-100 rounded-3" alt="...">
                 </div>
                 <div class="carousel-item rounded-3">
-                  <img
-                    src="images/planting&working/4.jpg"
-                    class="d-block w-100 rounded-3"
-                    alt="..."
-                  />
-                </div>
-                <div class="carousel-item rounded-3">
-                  <img
-                    src="images/planting&working/5.jpg"
-                    class="d-block w-100 rounded-3"
-                    alt="..."
-                  />
-                </div>
-                <div class="carousel-item rounded-3">
-                  <img
-                    src="images/planting&working/1.jpg"
-                    class="d-block w-100 rounded-3"
-                    alt="..."
-                  />
+                  <img src="images/planting&amp;working/1.jpg" class="d-block w-100 rounded-3" alt="...">
                 </div>
               </div>
             </div>
@@ -846,9 +611,7 @@
 
           <!-- Right: Text Content -->
           <div class="col-lg-6">
-            <div
-              class="p-4 p-lg-5 rounded-4 bg-white shadow-lg text-center text-lg-start"
-            >
+            <div class="p-4 p-lg-5 rounded-4 bg-white shadow-lg text-center text-lg-start">
               <h5 class="mb-3 fw-semibold">
                 <i class="fa fa-handshake-o me-2"></i> How We Help
               </h5>
@@ -859,10 +622,7 @@
                 Join us and take part in creating a greener, better tomorrow.
                 Your time and passion can make a real difference.
               </p>
-              <a
-                href="contact.html"
-                class="btn btn-success btn-lg rounded-pill shadow-sm px-4 py-2"
-              >
+              <a href="contact.html" class="btn btn-success btn-lg rounded-pill shadow-sm px-4 py-2">
                 Join Us Now
               </a>
             </div>
@@ -895,9 +655,7 @@
                     </p>
                   </div>
                   <div class="footer-socials mb-4">
-                    <ul
-                      class="m-0 p-0 d-flex list-unstyled justify-content-center justify-content-lg-start"
-                    >
+                    <ul class="m-0 p-0 d-flex list-unstyled justify-content-center justify-content-lg-start">
                       <li class="me-1">
                         <a href="#">
                           <i class="fa-brands fa-facebook"></i>
@@ -921,12 +679,7 @@
                   <div class="footer-contact-info">
                     <ul class="m-0 p-0 list-unstyled">
                       <li class="pb-2">
-                        <span class="h5"
-                          ><i
-                            class="fa fa-map-marker pe-2"
-                            aria-hidden="true"
-                          ></i
-                        ></span>
+                        <span class="h5"><i class="fa fa-map-marker pe-2" aria-hidden="true"></i></span>
                         Duragapur, West Bengal, India
                       </li>
                       <li class="pb-2">
@@ -934,15 +687,8 @@
                         +33 877 554 332
                       </li>
                       <li class="">
-                        <span class="h5"
-                          ><i class="fa fa-envelope-o pe-2"></i
-                        ></span>
-                        <a
-                          href="https://htmldesigntemplates.com/cdn-cgi/l/email-protection"
-                          class="__cf_email__"
-                          data-cfemail="bdd4d3dbd2fdcad8dfced4c9d893ded2d0"
-                          >[email&#160;example@mail.com]</a
-                        >
+                        <span class="h5"><i class="fa fa-envelope-o pe-2"></i></span>
+                        <a href="https://htmldesigntemplates.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="bdd4d3dbd2fdcad8dfced4c9d893ded2d0">[email&nbsp;example@mail.com]</a>
                       </li>
                     </ul>
                   </div>
@@ -951,9 +697,7 @@
               <div class="col-lg-3 col-md-3">
                 <div class="quick-links">
                   <h4 class="white mb-2">quick links</h4>
-                  <div
-                    class="seperator w-20 border-bottom border-1 mb-6 m-auto m-lg-0"
-                  ></div>
+                  <div class="seperator w-20 border-bottom border-1 mb-6 m-auto m-lg-0"></div>
                   <ul class="m-0 p-0 list-unstyled">
                     <li class="pb-4"><a href="about.html">About Us</a></li>
                     <li class=" "><a href="contact.html">Contact US</a></li>
@@ -963,16 +707,14 @@
               <div class="col-lg-3 col-md-3">
                 <div class="services">
                   <h4 class="white mb-2">Services</h4>
-                  <div
-                    class="seperator w-20 border-bottom border-1 mb-6 m-auto m-lg-0"
-                  ></div>
+                  <div class="seperator w-20 border-bottom border-1 mb-6 m-auto m-lg-0"></div>
                   <ul class="m-0 p-0 list-unstyled">
                     <li class="pb-4"><a href=" ">Recycling</a></li>
                     <li class="pb-4"><a href=" ">Ecosystem</a></li>
                     <li class="pb-4"><a href=" ">Best Organic</a></li>
                     <li class="pb-4"><a href=" ">Biology System</a></li>
                     <li class="pb-4"><a href=" ">Private Policy</a></li>
-                    <li class=" "><a href=" ">Terms & Conditions</a></li>
+                    <li class=" "><a href=" ">Terms &amp; Conditions</a></li>
                   </ul>
                 </div>
               </div>
@@ -1002,8 +744,8 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        
+      
       <div class="copyright py-6 bg-darker position-relative text-center white">
         <p class="mb-0">
           Developed by RenoSync.
@@ -1014,10 +756,7 @@
 
     <!--Bacl-to-top Button start-->
     <div id="back-to-top">
-      <a
-        href="#"
-        class="bg-pink position-relative align-items-center rounded-circle d-block border border-4 border-grey"
-      ></a>
+      <a href="#" class="bg-pink position-relative align-items-center rounded-circle d-block border border-4 border-grey"></a>
     </div>
     <!--Bacl-to-top Button end-->
 
@@ -1036,7 +775,7 @@
     ></script> -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
 
 
@@ -1050,5 +789,6 @@
   });
 </script>
 
-  </body>
-</html>
+  
+
+</body></html>

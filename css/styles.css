@@ -1,12 +1,4 @@
-/*------------------------------------------------------------------
-* Project:        Ecoviron - Ecology & Enviroment Charity HTML Templates
-* Author:         HtmlDesign Templates
-* URL:            https://themeforest.net/user/htmldesigntemplates/portfolio
-* Created:        07/19/2024
--------------------------------------------------------------------*/
 
-
-/* Header CSS */
 
 /*Header-top  Section*/
 
@@ -51,7 +43,7 @@
 }
 
 .fixed-top {
-  background-color: #3b4529;
+  background-color: #d41414;
 }
 #responsive-auth{
   gap: 10px;
@@ -108,7 +100,7 @@
   .slicknav_nav{
     border-radius: 20px;
     box-shadow: 0 0 15px #cccccc50;
-    background-color: #f9f9f9;
+    background-color: #e02525;
   }
 
   a.nav-link{
@@ -118,7 +110,7 @@
   } 
 
   .slicknav_nav ul li{
-    background-color: #f9f9f9;
+    background-color: #be2020;
   }
 
   .slicknav_nav a:hover, .slicknav_nav .slicknav_row:hover{
@@ -185,6 +177,7 @@
   .fixed-top{
     display: none;
   }
+  
 }
 
 @media (max-width: 990px) {
@@ -905,3 +898,43 @@ footer .overlay{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* @media (max-width: 992px) {
+  .slicknav_menu {
+    display: block !important;
+    z-index: 9999;
+    position: relative;
+  }
+
+  .navbar-nav {
+    display: none !important; 
+  }
+
+  .slicknav_nav {
+    display: block !important;
+    background: #ec1111;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .slicknav_nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: block;
+  }
+
+  .slicknav_nav a:hover {
+    background-color: #c75656;
+    color: #fff;
+  }
+
+  .slicknav_btn {
+    background-color: #c75656 !important;
+    border-radius: 5px;
+  }
+
+  .slicknav_menu .slicknav_icon-bar {
+    background-color: #fff !important;
+  }
+} */
